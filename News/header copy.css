@@ -1,0 +1,114 @@
+.header {
+    height: 50px;
+    padding-bottom: 80px;
+    background-color: #111;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 90;
+    position: fixed;
+    width: 1520px;
+    padding-right: 18px;
+    /* background-color: ; */
+
+    /* align-items: center; */
+}
+.left-section{
+    /* background-color: lightblue; */
+    width: 550px;
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+    margin-top: 34px;
+    justify-content: space-between;
+    
+}
+.middle-section{
+    /* background-color: lightpink; */
+    flex: 1;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.right-section{
+    /* background-color: lightblue; */
+    width: 320px;
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgb(56, 53, 53);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+
+}
+.dropdown-content a {
+    display: block;
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    color: #ffffff;
+    background-color: rgba(32, 32, 32, 0.023);
+}
+.left-section button {
+    background-color: transparent;
+    border: 1px solid #111;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+
+
+}
+.right-section button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    border: 1px solid rgb(215, 29, 29) ;
+    border-radius: 14px;
+    width: 90px;
+    height: 30px;
+    font-weight: 700;
+    background-color: rgb(237, 58, 58);
+}
+.right-section input {
+    border: 1px solid black;
+    border-radius: 14px;
+    height: 26px;
+    margin-left: 16px;
+    margin-right: 6px;
+}
+.right-section svg {
+    width: 26px;
+    height: 18px;
+    ;
+}
+.search-bar {
+
+}
+.right-section input::placeholder {
+    padding-left: 20px;
+    color: grey;
+    font-size: 12px;
+    font-weight: 600;
+}
+.right-section input.search-bar {
+    background-color: rgb(91, 91, 91);
+}
