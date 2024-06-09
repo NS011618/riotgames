@@ -6,8 +6,8 @@ Techologies used - HTML,CSS
 
 
 # Team Members:
-Ashish Golla
-Abhinav JMS
-Koushik
-Sathvik Bandaru
-Sree Vardhan
+- Ashish Golla
+- Abhinav JMS
+- Koushik
+- Sathvik Bandaru
+- Sree Vardhan
